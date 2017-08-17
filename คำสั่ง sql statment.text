@@ -1,0 +1,6 @@
+﻿SELECT kd.doctor_name,kdr.diag_room_no FROM k_diag kd INNER JOIN k_diag_request kdr
+ON diag_date = '25 ธ.ค.2558'
+
+SELECT COUNT(*) FROM k_diag WHERE doctor_name='?' AND diag_date BETWEEN 01 ม.ค.2558 TO '31 ธ.ค.2558'
+
+** ? หมายถึงชื่อ doctor_name ที่ต้องการค้นหา
